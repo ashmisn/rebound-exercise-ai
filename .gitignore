@@ -21,3 +21,16 @@ dist-ssr
 *.sln
 *.sw?
 .env
+.env.*
+!.env.example
+
+# Python backend
+backend/.venv/
+.venv/
+backend/__pycache__/
+__pycache__/
+*.py[cod]
+
+# Local evaluation artifacts
+coverage/
+reports/
